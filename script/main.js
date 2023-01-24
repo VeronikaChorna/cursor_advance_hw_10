@@ -1,28 +1,3 @@
-
-// const btn = document.querySelector("button");
-
-
-// let isWButtonPressed = false;
-
-// document.addEventListener("keydown", (e) => {
-//   if (isWButtonPressed) {
-//     return;
-//   }
-
-//   if (e.code === "KeyW") {
-//     isWButtonPressed = true;
-//   }
-
-//   console.log("your pressed key: ", { e });
-// });
-
-// document.addEventListener("keyup", (e) => {
-//   if (e.code === "KeyW") {
-//     isWButtonPressed = false;
-//   }
-
-//   console.log("your pressed key: ", { e });
-// });
 const seasons = {
   "rain": 'url("./images/rain_forest.jpg")',
   "heavy-rain": 'url("./images/heavy_rain.jpg")',
@@ -40,8 +15,6 @@ function updatePage(valueId) {
   });
   document.getElementById('sound-' + valueId).play();
 }
-
-
 
 document.addEventListener("keydown", (e) => {
   if(e.code === "KeyA") {
